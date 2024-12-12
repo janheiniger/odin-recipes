@@ -5,7 +5,9 @@
 h1 {
     color: rgb(102, 21, 90);
     text-align: center;
-    font-family: Verdana, Tahoma, sans-serif;
+    letter-spacing: 2px;
+    font-weight: 900;
+
 }
 
 
@@ -13,6 +15,7 @@ li {
     color: rgb(0, 0, 0);
     text-align: center;
 
+    border: 4px solid black;
 }
 html {
     background-color: beige;
@@ -29,36 +32,29 @@ ul {
 
 .recipe-item {
     margin-top: 25px;
-    border: 2px solid rgb(0, 0, 0);
     padding: 0.2em;
     background-color: rgb(205, 201, 210);
 }
+.images {
+    display: flex;
+}
 
 .imageLasagna {
-    position: absolute;
-    top: 260px;
-    left: 400px;
-    height: 232px;
-    width: auto;
-    border: 4px solid black;
+    margin: 4px;
+    flex: 1;
+    margin: auto;
 }
 
 .imageMargeritha {
-    position: absolute;
-    top: 260px;
-    left: 1550px;
-    height: 258px;
-    width: auto;
-    border: 4px solid black;
+    margin: 4px;
+    flex: 1;
+    margin: auto;
 }
 
 .imageSpaghetti {
-    position: absolute;
-    top: 260px;
-    left: 2700px;
-    height: 193px;
-    width: auto;
-    border: 4px solid black;
+    margin: 4px;
+    flex: 1;
+    margin: auto;
 }
 
 
@@ -70,33 +66,32 @@ ul {
 }
 
 .lasagna {
-    color: blanchedalmond;
+    color: black;
     text-align: center;
     margin: 4px;
     margin-top: 5px;
     padding: 0.2em;
-    background-color: rgb(0, 0, 0) ;
-    flex: 1
+    background-color: beige ;
+    flex: 1;
 }
 .margeritha {
-    color: blanchedalmond;
+    color: black;
     text-align: center;
     margin: 4px;
     margin-top: 5px;
     padding: 0.2em;
-    background-color: rgb(0, 0, 0) ;
-    flex: 1
+    background-color: beige ;
+    flex: 1;
 }
 
 .spaghetti {
-    color: blanchedalmond;
+    color: black;
 
     text-align: centers;
     margin: 4px;
     margin-top: 5px;
     padding: 0.2em;
-    background-color: rgb(0, 0, 0) ;
-    flex: 1
-    
+    background-color: beige ;
+    flex: 1;
 }
   
